@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AbuseBehavior"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IllegalDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicialCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrescriptionDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideEffect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#involves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInvolvedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isShownBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSufferedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTreatedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#suffersFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSlangTerm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adderall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alprazolam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amphetamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heroin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Percocet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suboxone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Xanax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#acetaminophen_and_oxycodone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amphetamine_and_dextroamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#buprenorphine_and_naloxone"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#IllegalDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrescriptionDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Adderall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Alprazolam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Amphetamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IllegalDrug"/>
+        <NamedIndividual IRI="#Heroin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Percocet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Suboxone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#Xanax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#acetaminophen_and_oxycodone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#amphetamine_and_dextroamphetamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrescriptionDrug"/>
+        <NamedIndividual IRI="#buprenorphine_and_naloxone"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causedBy"/>
+        <ObjectProperty IRI="#causes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#involves"/>
+        <ObjectProperty IRI="#isInvolvedWith"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isShownBy"/>
+        <ObjectProperty IRI="#shows"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSufferedBy"/>
+        <ObjectProperty IRI="#suffersFrom"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTreatedWith"/>
+        <ObjectProperty IRI="#treats"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <ObjectProperty IRI="#uses"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInvolvedWith"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isShownBy"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSufferedBy"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTreatedWith"/>
+        <Class IRI="#MedicialCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#suffersFrom"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causes"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSource"/>
+        <Class IRI="#Source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#involves"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInvolvedWith"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isShownBy"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSourceOf"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSufferedBy"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTreatedWith"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#shows"/>
+        <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#suffersFrom"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treats"/>
+        <Class IRI="#MedicialCondition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSlangTerm"/>
+        <Class IRI="#Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSlangTerm"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#IllegalDrug</IRI>
+        <Literal>Basically Schedule I controlled substances defined by the Controlled Substances Act.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#PrescriptionDrug</IRI>
+        <Literal>Basically Schedule II - V controlled substances defined by the Controlled Substances Act.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
