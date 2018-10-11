@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO">
+    <Prefix name="" IRI="http://www.semanticweb.org/han3_lab/ontologies/2018/9/ODAO"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -42,10 +43,16 @@
         <ObjectProperty IRI="#causes"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasSource"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#involves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isHadBy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isInvolvedWith"/>
@@ -170,6 +177,10 @@
         <ObjectProperty IRI="#causes"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty IRI="#isHadBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#hasSource"/>
         <ObjectProperty IRI="#isSourceOf"/>
     </InverseObjectProperties>
@@ -205,12 +216,20 @@
         <Class IRI="#Drug"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSource"/>
         <Class IRI="#Drug"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#involves"/>
         <Class IRI="#AbuseBehavior"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isHadBy"/>
+        <Class IRI="#MedicialCondition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInvolvedWith"/>
@@ -265,12 +284,20 @@
         <Class IRI="#SideEffect"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#MedicialCondition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSource"/>
         <Class IRI="#Source"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#involves"/>
         <Class IRI="#Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isHadBy"/>
+        <Class IRI="#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isInvolvedWith"/>
