@@ -16,16 +16,181 @@
         <Class IRI="#AbuseBehavior"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adderall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adderall_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adzenys_XR-ODT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alpha-methyltryptamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alprazolam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BZP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benzodiazepine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benzoylethanamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Benzylpiperazine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bunavail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cannabinoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cathinone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clonazepam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crack_cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DMT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DesignerDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dilaudid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dilaudid-5"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dyanavel_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecstasy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etorphine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evekeo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exalgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fentanyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flunitrazepam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GHB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goprelto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heroin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hycet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrocodone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydromorphone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#IllegalDrug"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ketalar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ketamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Khat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KlonoPIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LSD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lorcet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lortab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lortab_Elixir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lysergic_acid_diethylamide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MDMA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marijuana"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MedicialCondition"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mydayis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Niravam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Percocet"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PrescriptionDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primlev"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rohypnol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roxicet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SideEffect"/>
@@ -34,7 +199,43 @@
         <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Suboxone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tetrahydrocannabinol"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdrocet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vicodin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xanax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xanax_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xartemis_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xodol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zubsolv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gamma-Hydroxybutyric_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N,N-Dimethyltryptamine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#causedBy"/>
@@ -120,13 +321,313 @@
     <Declaration>
         <NamedIndividual IRI="#buprenorphine_and_naloxone"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#BZP"/>
+        <Class IRI="#Benzylpiperazine"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Benzoylethanamine"/>
+        <Class IRI="#Cathinone"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cannabinoid"/>
+        <Class IRI="#Marijuana"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DMT"/>
+        <Class IRI="#N,N-Dimethyltryptamine"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ecstasy"/>
+        <Class IRI="#MDMA"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GHB"/>
+        <Class IRI="#gamma-Hydroxybutyric_acid"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LSD"/>
+        <Class IRI="#Lysergic_acid_diethylamide"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MDMA"/>
+        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adderall"/>
+        <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adderall_XR"/>
+        <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adzenys_XR-ODT"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alpha-methyltryptamine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alprazolam"/>
+        <Class IRI="#Benzodiazepine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphetamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BZP"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benzodiazepine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benzoylethanamine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Benzylpiperazine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bunavail"/>
+        <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cannabinoid"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cathinone"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clonazepam"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocaine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crack_cocaine"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DMT"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DesignerDrug"/>
+        <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dilaudid"/>
+        <Class IRI="#Hydromorphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dilaudid-5"/>
+        <Class IRI="#Hydromorphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dyanavel_XR"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecstasy"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocet"/>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etorphine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evekeo"/>
+        <Class IRI="#Amphetamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exalgo"/>
+        <Class IRI="#Hydromorphone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fentanyl"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flunitrazepam"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GHB"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goprelto"/>
+        <Class IRI="#Cocaine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heroin"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hycet"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrocodone"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydromorphone"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#IllegalDrug"/>
         <Class IRI="#Drug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ketalar"/>
+        <Class IRI="#Ketamine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ketamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Khat"/>
+        <Class IRI="#Cathinone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KlonoPIN"/>
+        <Class IRI="#Clonazepam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LSD"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lorcet"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lortab"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lortab_Elixir"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lysergic_acid_diethylamide"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MDMA"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marijuana"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mydayis"/>
+        <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niravam"/>
+        <Class IRI="#Alprazolam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norco"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Percocet"/>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PrescriptionDrug"/>
         <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primlev"/>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rohypnol"/>
+        <Class IRI="#Flunitrazepam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roxicet"/>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suboxone"/>
+        <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tetrahydrocannabinol"/>
+        <Class IRI="#Cannabinoid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdrocet"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vicodin"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xanax"/>
+        <Class IRI="#Alprazolam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xanax_XR"/>
+        <Class IRI="#Alprazolam"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xartemis_XR"/>
+        <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xodol"/>
+        <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zubsolv"/>
+        <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gamma-Hydroxybutyric_acid"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N,N-Dimethyltryptamine"/>
+        <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#PrescriptionDrug"/>
@@ -351,6 +852,31 @@
         <DataProperty IRI="#hasSlangTerm"/>
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alprazolam</IRI>
+        <Literal>Alprazolam, available under the trade name Xanax, is a potent, short-acting benzodiazepine anxiolytic—a minor tranquilizer. It is commonly used for the treatment of anxiety disorders, especially of panic disorder, but also in the treatment of generalized anxiety disorder (GAD) or social anxiety disorder. In 2010 it was the 12th most prescribed medicine in the United States.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Amphetamine_and_Dextroamphetamine_combination</IRI>
+        <Literal>Adderall, Adderall XR (Extended Release), and Mydayis are combination drugs containing four salts of the two enantiomers of amphetamine, a central nervous system (CNS) stimulant of the phenethylamine class. Adderall is used in the treatment of attention deficit hyperactivity disorder (ADHD) and narcolepsy. It is also used as an athletic performance enhancer and cognitive enhancer, and recreationally as an aphrodisiac and euphoriant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Benzodiazepine</IRI>
+        <Literal>Benzodiazepines (BZD, BZs), sometimes called &quot;benzos&quot;, are a class of psychoactive drugs whose core chemical structure is the fusion of a benzene ring and a diazepine ring. The first such drug, chlordiazepoxide (Librium), was discovered accidentally by Leo Sternbach in 1955, and made available in 1960 by Hoffmann–La Roche, which, since 1963, has also marketed the benzodiazepine diazepam (Valium). In 1977 benzodiazepines were globally the most prescribed medications. They are in the family of drugs commonly known as minor tranquilizers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Benzylpiperazine</IRI>
+        <Literal>Benzylpiperazine (BZP) is a recreational drug with euphoriant and stimulant properties. The effects produced by BZP are comparable to those produced by amphetamine. Adverse effects have been reported following its use including acute psychosis, renal toxicity and seizures.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etorphine</IRI>
+        <Literal>Etorphine is available legally only for veterinary use and is strictly governed by law. It is often used to immobilize elephants and other large mammals.</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>#IllegalDrug</IRI>
