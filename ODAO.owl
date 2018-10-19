@@ -40,6 +40,12 @@
         <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Aptensio_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arymo_ER"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BZP"/>
     </Declaration>
     <Declaration>
@@ -68,6 +74,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concerta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cotempla_XR-ODT"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Crack_cocaine"/>
@@ -118,6 +130,9 @@
         <Class IRI="#Goprelto"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Hash_oil"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Heroin"/>
     </Declaration>
     <Declaration>
@@ -131,6 +146,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#IllegalDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kadian"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ketalar"/>
@@ -148,6 +166,9 @@
         <Class IRI="#LSD"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Laudanum"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lorcet"/>
     </Declaration>
     <Declaration>
@@ -163,10 +184,40 @@
         <Class IRI="#MDMA"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MS_Contin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Marijuana"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Marijuana_concentrates"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MedicialCondition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mescaline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metadate_CD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metadate_ER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methamphetamine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methylin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Methylphenidate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorphaBond_ER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morphine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mydayis"/>
@@ -178,7 +229,37 @@
         <Class IRI="#Norco"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Opium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxaydo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxycodone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxycontin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oxyfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PCP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paregoric"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Percocet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peyote"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phencyclidine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenergan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PrescriptionDrug"/>
@@ -187,10 +268,28 @@
         <Class IRI="#Primlev"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Promethazine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psilocybin_mushrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuilliChew_ER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quillivant_XR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ritalin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rohypnol"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Roxicet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roxicodone"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SideEffect"/>
@@ -199,10 +298,22 @@
         <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Steroid"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Suboxone"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Synthetic_cannabinoids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synthetic_cathinones"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tetrahydrocannabinol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#U-47700"/>
     </Declaration>
     <Declaration>
         <Class IRI="#User"/>
@@ -224,6 +335,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Xodol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xtampza_ER"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zubsolv"/>
@@ -288,39 +402,6 @@
     <Declaration>
         <ObjectProperty IRI="#uses"/>
     </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasSlangTerm"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Adderall"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Alprazolam"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Amphetamine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Heroin"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Percocet"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Suboxone"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Xanax"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#acetaminophen_and_oxycodone"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#amphetamine_and_dextroamphetamine"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#buprenorphine_and_naloxone"/>
-    </Declaration>
     <EquivalentClasses>
         <Class IRI="#BZP"/>
         <Class IRI="#Benzylpiperazine"/>
@@ -346,12 +427,24 @@
         <Class IRI="#gamma-Hydroxybutyric_acid"/>
     </EquivalentClasses>
     <EquivalentClasses>
+        <Class IRI="#Hash_oil"/>
+        <Class IRI="#Marijuana_concentrates"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="#LSD"/>
         <Class IRI="#Lysergic_acid_diethylamide"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#MDMA"/>
         <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mescaline"/>
+        <Class IRI="#Peyote"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PCP"/>
+        <Class IRI="#Phencyclidine"/>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
@@ -384,6 +477,14 @@
     <SubClassOf>
         <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
         <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aptensio_XR"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arymo_ER"/>
+        <Class IRI="#Morphine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BZP"/>
@@ -424,6 +525,14 @@
     <SubClassOf>
         <Class IRI="#Cocaine"/>
         <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concerta"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cotempla_XR-ODT"/>
+        <Class IRI="#Methylphenidate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Crack_cocaine"/>
@@ -486,6 +595,10 @@
         <Class IRI="#Cocaine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hash_oil"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Heroin"/>
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
@@ -504,6 +617,10 @@
     <SubClassOf>
         <Class IRI="#IllegalDrug"/>
         <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kadian"/>
+        <Class IRI="#Morphine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ketalar"/>
@@ -526,6 +643,10 @@
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Laudanum"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lorcet"/>
         <Class IRI="#Hydrocodone"/>
     </SubClassOf>
@@ -546,8 +667,48 @@
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MS_Contin"/>
+        <Class IRI="#Morphine"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Marijuana"/>
         <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marijuana_concentrates"/>
+        <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mescaline"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metadate_CD"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metadate_ER"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methamphetamine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methylin"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Methylphenidate"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorphaBond_ER"/>
+        <Class IRI="#Morphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morphine"/>
+        <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mydayis"/>
@@ -562,8 +723,48 @@
         <Class IRI="#Hydrocodone"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Opium"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxaydo"/>
+        <Class IRI="#Oxycodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxycodone"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxycontin"/>
+        <Class IRI="#Oxycodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oxyfast"/>
+        <Class IRI="#Oxycodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PCP"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paregoric"/>
+        <Class IRI="#Opium"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Percocet"/>
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peyote"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phencyclidine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenergan"/>
+        <Class IRI="#Promethazine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PrescriptionDrug"/>
@@ -574,6 +775,26 @@
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Promethazine"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psilocybin_mushrooms"/>
+        <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuilliChew_ER"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quillivant_XR"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ritalin"/>
+        <Class IRI="#Methylphenidate"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rohypnol"/>
         <Class IRI="#Flunitrazepam"/>
     </SubClassOf>
@@ -582,12 +803,32 @@
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Roxicodone"/>
+        <Class IRI="#Oxycodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Steroid"/>
+        <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Suboxone"/>
         <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Synthetic_cannabinoids"/>
+        <Class IRI="#Cannabinoid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synthetic_cathinones"/>
+        <Class IRI="#Cathinone"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tetrahydrocannabinol"/>
         <Class IRI="#Cannabinoid"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#U-47700"/>
+        <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Verdrocet"/>
@@ -614,6 +855,10 @@
         <Class IRI="#Hydrocodone"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Xtampza_ER"/>
+        <Class IRI="#Oxycodone"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Zubsolv"/>
         <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
     </SubClassOf>
@@ -629,46 +874,6 @@
         <Class IRI="#N,N-Dimethyltryptamine"/>
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Adderall"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Alprazolam"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Amphetamine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#IllegalDrug"/>
-        <NamedIndividual IRI="#Heroin"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Percocet"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Suboxone"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#Xanax"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#acetaminophen_and_oxycodone"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#amphetamine_and_dextroamphetamine"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#PrescriptionDrug"/>
-        <NamedIndividual IRI="#buprenorphine_and_naloxone"/>
-    </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSource"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -844,19 +1049,6 @@
         <ObjectProperty IRI="#uses"/>
         <Class IRI="#Drug"/>
     </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasSlangTerm"/>
-        <Class IRI="#Drug"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasSlangTerm"/>
-        <Datatype abbreviatedIRI="rdfs:Literal"/>
-    </DataPropertyRange>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Alprazolam</IRI>
-        <Literal>Alprazolam, available under the trade name Xanax, is a potent, short-acting benzodiazepine anxiolytic—a minor tranquilizer. It is commonly used for the treatment of anxiety disorders, especially of panic disorder, but also in the treatment of generalized anxiety disorder (GAD) or social anxiety disorder. In 2010 it was the 12th most prescribed medicine in the United States.</Literal>
-    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Amphetamine_and_Dextroamphetamine_combination</IRI>
