@@ -28,6 +28,9 @@
         <Class IRI="#Adzenys_XR-ODT"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Agitation"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Alpha-methyltryptamine"/>
     </Declaration>
     <Declaration>
@@ -40,10 +43,19 @@
         <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anxiety_disorder"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Aptensio_XR"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Arymo_ER"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attention_deficit_hyperactivity_disorder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BZP"/>
@@ -52,10 +64,7 @@
         <Class IRI="#Benzodiazepine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Benzoylethanamine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Benzylpiperazine"/>
+        <Class IRI="#Bipolar_disorder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bunavail"/>
@@ -70,10 +79,16 @@
         <Class IRI="#Cathinone"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Chronic_pain"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Clonazepam"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cocaine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Concerta"/>
@@ -91,6 +106,9 @@
         <Class IRI="#DesignerDrug"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Diarrhea"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Dilaudid"/>
     </Declaration>
     <Declaration>
@@ -100,10 +118,10 @@
         <Class IRI="#Drug"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dyanavel_XR"/>
+        <Class IRI="#Drug_withdrawal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ecstasy"/>
+        <Class IRI="#Dyanavel_XR"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Endocet"/>
@@ -118,7 +136,13 @@
         <Class IRI="#Exalgo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Fast_heart_rate"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Fentanyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fever"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Flunitrazepam"/>
@@ -131,6 +155,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Hash_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heartburn"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Heroin"/>
@@ -146,6 +173,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#IllegalDrug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insomnia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Kadian"/>
@@ -178,13 +208,13 @@
         <Class IRI="#Lortab_Elixir"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lysergic_acid_diethylamide"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MDMA"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MS_Contin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Major_depressive_disorder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Marijuana"/>
@@ -220,13 +250,22 @@
         <Class IRI="#Morphine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Myalgia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mydayis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nausea"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Niravam"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Norco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstructive_lung_disease"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Opium"/>
@@ -253,12 +292,6 @@
         <Class IRI="#Percocet"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Peyote"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phencyclidine"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Phenergan"/>
     </Declaration>
     <Declaration>
@@ -272,6 +305,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Psilocybin_mushrooms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological_dependence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychosis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#QuilliChew_ER"/>
@@ -295,6 +334,9 @@
         <Class IRI="#SideEffect"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sleep_disorder"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Source"/>
     </Declaration>
     <Declaration>
@@ -302,6 +344,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Suboxone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_dependence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_intoxication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance_use_disorder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Symptom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Synthetic_cannabinoids"/>
@@ -341,15 +395,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Zubsolv"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#gamma-Hydroxybutyric_acid"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N,N-Dimethyltryptamine"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#causedBy"/>
@@ -403,48 +448,8 @@
         <ObjectProperty IRI="#uses"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#BZP"/>
-        <Class IRI="#Benzylpiperazine"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Benzoylethanamine"/>
-        <Class IRI="#Cathinone"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Cannabinoid"/>
-        <Class IRI="#Marijuana"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#DMT"/>
-        <Class IRI="#N,N-Dimethyltryptamine"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Ecstasy"/>
-        <Class IRI="#MDMA"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#GHB"/>
-        <Class IRI="#gamma-Hydroxybutyric_acid"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Hash_oil"/>
         <Class IRI="#Marijuana_concentrates"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#LSD"/>
-        <Class IRI="#Lysergic_acid_diethylamide"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#MDMA"/>
-        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Mescaline"/>
-        <Class IRI="#Peyote"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#PCP"/>
-        <Class IRI="#Phencyclidine"/>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
@@ -463,6 +468,10 @@
         <Class IRI="#Amphetamine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Agitation"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Alpha-methyltryptamine"/>
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
@@ -479,12 +488,24 @@
         <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anxiety"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anxiety_disorder"/>
+        <Class IRI="#MedicialCondition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Aptensio_XR"/>
         <Class IRI="#Methylphenidate"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Arymo_ER"/>
         <Class IRI="#Morphine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attention_deficit_hyperactivity_disorder"/>
+        <Class IRI="#MedicialCondition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BZP"/>
@@ -495,12 +516,8 @@
         <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Benzoylethanamine"/>
-        <Class IRI="#IllegalDrug"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Benzylpiperazine"/>
-        <Class IRI="#IllegalDrug"/>
+        <Class IRI="#Bipolar_disorder"/>
+        <Class IRI="#MedicialCondition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bunavail"/>
@@ -519,12 +536,20 @@
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Chronic_pain"/>
+        <Class IRI="#MedicialCondition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Clonazepam"/>
         <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cocaine"/>
         <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coma"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Concerta"/>
@@ -547,6 +572,10 @@
         <Class IRI="#Drug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Diarrhea"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dilaudid"/>
         <Class IRI="#Hydromorphone"/>
     </SubClassOf>
@@ -555,12 +584,12 @@
         <Class IRI="#Hydromorphone"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dyanavel_XR"/>
-        <Class IRI="#Amphetamine"/>
+        <Class IRI="#Drug_withdrawal"/>
+        <Class IRI="#SideEffect"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ecstasy"/>
-        <Class IRI="#IllegalDrug"/>
+        <Class IRI="#Dyanavel_XR"/>
+        <Class IRI="#Amphetamine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Endocet"/>
@@ -579,8 +608,16 @@
         <Class IRI="#Hydromorphone"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fast_heart_rate"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Fentanyl"/>
         <Class IRI="#PrescriptionDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fever"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Flunitrazepam"/>
@@ -597,6 +634,10 @@
     <SubClassOf>
         <Class IRI="#Hash_oil"/>
         <Class IRI="#Marijuana"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heartburn"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Heroin"/>
@@ -617,6 +658,10 @@
     <SubClassOf>
         <Class IRI="#IllegalDrug"/>
         <Class IRI="#Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insomnia"/>
+        <Class IRI="#Sleep_disorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kadian"/>
@@ -659,10 +704,6 @@
         <Class IRI="#Hydrocodone"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lysergic_acid_diethylamide"/>
-        <Class IRI="#IllegalDrug"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#MDMA"/>
         <Class IRI="#IllegalDrug"/>
     </SubClassOf>
@@ -671,8 +712,12 @@
         <Class IRI="#Morphine"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Major_depressive_disorder"/>
+        <Class IRI="#MedicialCondition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Marijuana"/>
-        <Class IRI="#IllegalDrug"/>
+        <Class IRI="#Cannabinoid"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Marijuana_concentrates"/>
@@ -711,8 +756,16 @@
         <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Myalgia"/>
+        <Class IRI="#Symptom"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mydayis"/>
         <Class IRI="#Amphetamine_and_Dextroamphetamine_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nausea"/>
+        <Class IRI="#Symptom"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Niravam"/>
@@ -721,6 +774,10 @@
     <SubClassOf>
         <Class IRI="#Norco"/>
         <Class IRI="#Hydrocodone"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstructive_lung_disease"/>
+        <Class IRI="#MedicialCondition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Opium"/>
@@ -755,14 +812,6 @@
         <Class IRI="#Acetaminophen_and_Oxycodone_combination"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Peyote"/>
-        <Class IRI="#IllegalDrug"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Phencyclidine"/>
-        <Class IRI="#PrescriptionDrug"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Phenergan"/>
         <Class IRI="#Promethazine"/>
     </SubClassOf>
@@ -781,6 +830,14 @@
     <SubClassOf>
         <Class IRI="#Psilocybin_mushrooms"/>
         <Class IRI="#IllegalDrug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological_dependence"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychosis"/>
+        <Class IRI="#SideEffect"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#QuilliChew_ER"/>
@@ -807,12 +864,28 @@
         <Class IRI="#Oxycodone"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sleep_disorder"/>
+        <Class IRI="#MedicialCondition"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Steroid"/>
         <Class IRI="#PrescriptionDrug"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Suboxone"/>
         <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_dependence"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_intoxication"/>
+        <Class IRI="#SideEffect"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substance_use_disorder"/>
+        <Class IRI="#SideEffect"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Synthetic_cannabinoids"/>
@@ -861,18 +934,6 @@
     <SubClassOf>
         <Class IRI="#Zubsolv"/>
         <Class IRI="#Buprenorphine_and_Naloxone_combination"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#gamma-Hydroxybutyric_acid"/>
-        <Class IRI="#IllegalDrug"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#3,4-Methylenedioxymethamphetamine"/>
-        <Class IRI="#IllegalDrug"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N,N-Dimethyltryptamine"/>
-        <Class IRI="#IllegalDrug"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSource"/>
@@ -1050,9 +1111,44 @@
         <Class IRI="#Drug"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agitation</IRI>
+        <Literal xml:lang="en">Agitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Amphetamine_and_Dextroamphetamine_combination</IRI>
         <Literal>Adderall, Adderall XR (Extended Release), and Mydayis are combination drugs containing four salts of the two enantiomers of amphetamine, a central nervous system (CNS) stimulant of the phenethylamine class. Adderall is used in the treatment of attention deficit hyperactivity disorder (ADHD) and narcolepsy. It is also used as an athletic performance enhancer and cognitive enhancer, and recreationally as an aphrodisiac and euphoriant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anxiety</IRI>
+        <Literal xml:lang="en">Anxiety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anxiety_disorder</IRI>
+        <Literal xml:lang="en">Anxiety_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Attention_deficit_hyperactivity_disorder</IRI>
+        <Literal xml:lang="en">Attention_deficit_hyperactivity_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BZP</IRI>
+        <Literal>rdfs:comment &quot;Benzylpiperazine (BZP) is a recreational drug with euphoriant and stimulant properties. The effects produced by BZP are comparable to those produced by amphetamine. Adverse effects have been reported following its use including acute psychosis, renal toxicity and seizures.&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BZP</IRI>
+        <Literal>BZP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BZP</IRI>
+        <Literal>Benzylpiperazine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1060,9 +1156,49 @@
         <Literal>Benzodiazepines (BZD, BZs), sometimes called &quot;benzos&quot;, are a class of psychoactive drugs whose core chemical structure is the fusion of a benzene ring and a diazepine ring. The first such drug, chlordiazepoxide (Librium), was discovered accidentally by Leo Sternbach in 1955, and made available in 1960 by Hoffmann–La Roche, which, since 1963, has also marketed the benzodiazepine diazepam (Valium). In 1977 benzodiazepines were globally the most prescribed medications. They are in the family of drugs commonly known as minor tranquilizers.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Benzylpiperazine</IRI>
-        <Literal>Benzylpiperazine (BZP) is a recreational drug with euphoriant and stimulant properties. The effects produced by BZP are comparable to those produced by amphetamine. Adverse effects have been reported following its use including acute psychosis, renal toxicity and seizures.</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bipolar_disorder</IRI>
+        <Literal xml:lang="en">Bipolar_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cathinone</IRI>
+        <Literal>Benzoylethanamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cathinone</IRI>
+        <Literal>Cathinone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chronic_pain</IRI>
+        <Literal xml:lang="en">Chronic_pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Coma</IRI>
+        <Literal xml:lang="en">Coma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DMT</IRI>
+        <Literal>DMT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DMT</IRI>
+        <Literal>N,N-Dimethyltryptamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diarrhea</IRI>
+        <Literal xml:lang="en">Diarrhea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Drug_withdrawal</IRI>
+        <Literal xml:lang="en">Drug_withdrawal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1070,14 +1206,154 @@
         <Literal>Etorphine is available legally only for veterinary use and is strictly governed by law. It is often used to immobilize elephants and other large mammals.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fast_heart_rate</IRI>
+        <Literal xml:lang="en">Fast_heart_rate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fever</IRI>
+        <Literal xml:lang="en">Fever</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GHB</IRI>
+        <Literal>GHB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GHB</IRI>
+        <Literal>gamma-Hydroxybutyric_acid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heartburn</IRI>
+        <Literal xml:lang="en">Heartburn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>#IllegalDrug</IRI>
         <Literal>Basically Schedule I controlled substances defined by the Controlled Substances Act.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Insomnia</IRI>
+        <Literal xml:lang="en">Insomnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LSD</IRI>
+        <Literal>LSD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LSD</IRI>
+        <Literal>Lysergic_acid_diethylamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MDMA</IRI>
+        <Literal>3,4-Methylenedioxymethamphetamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MDMA</IRI>
+        <Literal>Ecstasy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MDMA</IRI>
+        <Literal>MDMA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Major_depressive_disorder</IRI>
+        <Literal xml:lang="en">Major_depressive_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mescaline</IRI>
+        <Literal>Mescaline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mescaline</IRI>
+        <Literal>Peyote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Myalgia</IRI>
+        <Literal xml:lang="en">Myalgia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nausea</IRI>
+        <Literal xml:lang="en">Nausea</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nausea</IRI>
+        <Literal xml:lang="en">Tremor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Obstructive_lung_disease</IRI>
+        <Literal xml:lang="en">Obstructive_lung_disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PCP</IRI>
+        <Literal>PCP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PCP</IRI>
+        <Literal>Phencyclidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <IRI>#PrescriptionDrug</IRI>
         <Literal>Basically Schedule II - V controlled substances defined by the Controlled Substances Act.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Psychological_dependence</IRI>
+        <Literal xml:lang="en">Psychological_dependence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Psychosis</IRI>
+        <Literal xml:lang="en">Psychosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sleep_disorder</IRI>
+        <Literal xml:lang="en">Sleep_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sleep_disorder</IRI>
+        <Literal xml:lang="en">somnipathy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Substance_dependence</IRI>
+        <Literal xml:lang="en">Substance_dependence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Substance_intoxication</IRI>
+        <Literal xml:lang="en">Substance_intoxication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Substance_use_disorder</IRI>
+        <Literal xml:lang="en">Substance_use_disorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Symptom</IRI>
+        <Literal xml:lang="en">Symptom</Literal>
     </AnnotationAssertion>
 </Ontology>
 
